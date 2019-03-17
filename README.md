@@ -1,1 +1,1 @@
-# lista_de_exercicios
+Exercícios realizados nas disciplinas de programação
