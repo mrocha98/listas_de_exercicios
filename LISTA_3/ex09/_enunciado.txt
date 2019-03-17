@@ -1,0 +1,3 @@
+9) Selecione 10 exercícios da lista a seguir, a partir do item 19, e implemente-os. Use funções.
+
+http://www.facom.ufu.br/~backes/wordpress/ListaC05.pdf

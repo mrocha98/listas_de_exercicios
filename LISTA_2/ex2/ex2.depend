@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1550710018 source:g:\lp1_lista2\ex2\classificacao.c
+	<stdio.h>
+	<stdlib.h>
+
+1550710208 source:g:\lp1_lista2\ex2\ir.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1550710272 source:g:\lp1_lista2\ex2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"ir.h"
+	"classificacao.h"
+
+1550708640 g:\lp1_lista2\ex2\menu.h
+
+1550707078 g:\lp1_lista2\ex2\ir.h
+
+1550709974 g:\lp1_lista2\ex2\classificacao.h
+
+1550708638 source:g:\lp1_lista2\ex2\menu.c
+	<stdio.h>
+	<stdlib.h>
+
+1550708238 source:g:\lp1_lista2\ex2\novo_salario.c
+	<stdio.h>
+	<stdlib.h>
+

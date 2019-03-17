@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1550708621 source:c:\users\aluno\desktop\lp1_lista2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"ir.h"
+	"classificacao.h"
+
+1550708638 c:\users\aluno\desktop\lp1_lista2\menu.h
+
+1550708637 source:c:\users\aluno\desktop\lp1_lista2\menu.c
+	<stdio.h>
+	<stdlib.h>
+
+1550710206 source:c:\users\aluno\desktop\lp1_lista2\ir.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1550707077 c:\users\aluno\desktop\lp1_lista2\ir.h
+
+1550708237 source:c:\users\aluno\desktop\lp1_lista2\novo_salario.c
+	<stdio.h>
+	<stdlib.h>
+
+1550709973 c:\users\aluno\desktop\lp1_lista2\classificacao.h
+
+1550710017 source:c:\users\aluno\desktop\lp1_lista2\classificacao.c
+	<stdio.h>
+	<stdlib.h>
+

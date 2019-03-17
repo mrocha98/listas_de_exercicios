@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1550185853 source:c:\users\aluno\desktop\ex7\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1550185854 source:c:\users\isaer\onedrive\documentos\lp1\ex7\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

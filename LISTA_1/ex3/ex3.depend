@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1550102039 source:c:\users\isaer\onedrive\documentos\lp1\ex3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

@@ -1,0 +1,10 @@
+int encontra_maior(int arr[], int qtd);
+int encontra_menor(int arr[], int qtd);
+double calcula_media(int arr[], int qtd);
+void alimenta_vetor(int arr[], int qtd);
+void printa_vetor(int arr[], int qtd);
+int comparador(const void * a, const void * b);
+void ordena_vetor(int arr[], int qtd);
+int eh_par(int n);
+double descobre_mediana(int arr[], int qtd);
+int descobre_moda(int arr[], int qtd);
