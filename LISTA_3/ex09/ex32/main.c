@@ -58,7 +58,7 @@ int main(){
         d.ano = ano;
         printf("DIA: %d\nMES: %d\nANO: %d\n\n", d.dia, d.mes, d.ano);
     }else{
-        printf("ERRO, FORMATACAO INVALIDA...\n");
+        printf("ERRO: FORMATACAO INVALIDA...\n");
     }
     system("pause");
     return 0;
