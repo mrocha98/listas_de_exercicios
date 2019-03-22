@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1473814294 source:c:\users\aluno\desktop\bibi_str\caracteres.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"caracteres.h"
+
+1473813614 c:\users\aluno\desktop\bibi_str\caracteres.h
+
+1473814803 source:c:\users\aluno\desktop\bibi_str\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"caracteres.h"
+
