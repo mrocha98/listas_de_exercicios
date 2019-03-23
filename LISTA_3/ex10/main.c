@@ -17,7 +17,7 @@ void inverte_e_substitui_a_por_estrela(char s[]){
 
 int main(){
     char str[25+1];
-    scanf("%s", str);
+    scanf("%[^\n]s", str);
     inverte_e_substitui_a_por_estrela(str);
     system("pause");
     return 0;
