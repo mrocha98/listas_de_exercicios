@@ -15,7 +15,15 @@ int busca_indice(char s[], char c, int i){
 }
 
 int main(){
-    printf("BATATA (T): %d\n", busca_indice("BATATA", 'T', 3));
+    char str[30+1], c;
+    int i;
+    printf("Entre com uma frase, um caractere e um indice, respectivamente:\n");
+    scanf("%[^\n]s", str);
+    fflush(stdin);
+    scanf(" %c", &c);
+    fflush(stdin);
+    scanf("%d", &i);
+    printf("Primeira posicao apartir do indice %d: %d\n", i, busca_indice(str, c, i));
     system("pause");
     return 0;
 }
