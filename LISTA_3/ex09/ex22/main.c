@@ -22,7 +22,7 @@ void cadastra_produto(PROD *P){
     printf("---------------------- CADASTRO -------------------------\n");
     printf("NOME:\t");
     memset(P->nome, '\0', sizeof(P->nome));
-    scanf("%s", aux);
+    scanf("%[^\n]s", aux);
     strcpy(P->nome, aux);
     free(P->nome);
     printf("VALOR:\tR$"); scanf("%f", &P->valor_bruto);
