@@ -113,12 +113,12 @@ void preenche_automaticamente(){
 }
 
 void preenche_4_automaticamente(){
-    for(int i = 0; i < 4; i++){
+    for(int i = 1; i <= 4; i++){
         if(indice == 20){
             printf("\nNumero maximo de cnpjs cadastrados...\n");
             break;
         }
-        srand(time(NULL) * i);
+        srand(time(NULL) * i + TAM_CNPJ);
         preenche_automaticamente();
     }
     listar_cnpjs(indice);
