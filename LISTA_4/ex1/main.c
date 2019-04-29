@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define _USE_MATH_DEFINES
+#ifndef PI
+#define PI 3.1415
+#endif
 #include <math.h>
 
 /*1–Faça um programa que use uma estrutura para armazenar os atributos de uma circunferência C,isto é,
@@ -9,18 +11,17 @@ b) calcular a área do círculo envolto pela circunferência. Use funções.
 */
 
 float calcula_area(float raio){
-    return (pow(raio, 2) * M_PI);
+    return (pow(raio, 2) * PI);
 }
 
 float calcula_perimetro(float raio){
-    return (M_PI * 2 * raio);
+    return (PI * 2 * raio);
 }
 
-int main()
-{
+int main(){
     float raio;
-    scanf("%f", raio);
-    printf("RAIO: %.2f\tPERIMETRO: %.2f\tAREA: %.2f\n", );
-    printf("Hello world!\n");
+    scanf("%f", &raio);
+    printf("RAIO: %.2f\tPERIMETRO: %.2f\tAREA: %.2f\n", raio, calcula_perimetro(raio), calcula_area(raio));
+    system("pause");
     return 0;
 }
