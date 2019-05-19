@@ -16,37 +16,27 @@ typedef struct Vetor{
     float z;
 } V;
 
-float soma2Valores(float n1, float n2){
-    return (n1 + n2 + 0.0);
+void somaVetorial(V v1, V v2, V *v3){
+    v3->x = v1.x + v2.x;
+    v3->y = v1.y + v2.y;
+    v3->z = v1.z + v2.z;
 }
 
 int main(){
     V v1, v2, v3;
-    float x1, x2, y1, y2, z1, z2;
 
-    printf("X1: "); scanf("%d", &x1);
-    printf("Y1: "); scanf("%d", &y1);
-    printf("Z1: "); scanf("%d", &z1);
+    printf("X1: "); scanf("%f", &v1.x);
+    printf("Y1: "); scanf("%f", &v1.y);
+    printf("Z1: "); scanf("%f", &v1.z);
 
-    printf("\nX2: "); scanf("%d", &x2);
-    printf("Y2: "); scanf("%d", &y2);
-    printf("Z2: "); scanf("%d", &z2);
+    printf("\nX2: "); scanf("%f", &v2.x);
+    printf("Y2: "); scanf("%f", &v2.y);
+    printf("Z2: "); scanf("%f", &v2.z);
 
-    printf("X1: %d\n", x1);
-    printf("Y1: %d\n", y1);
-    printf("Z1: %d\n", z1);
-
-    v1.x = x1; v1.y = y1; v1.z = z1;
-    v2.x = x2; v2.y = y2; v2.z = z2;
-
-    v3.x = v1.x + v2.x;
-    v3.y = soma2Valores(v1.y, v2.y);
-    v3.z = soma2Valores(v1.z, v2.z);
-
-    printf("NOVO VETOR:\n");
-    printf("\tX: %d\n", v3.x);
-    printf("\tY: %d\n", v3.y);
-    printf("\tZ: %d\n", v3.z);
+    somaVetorial(v1, v2, &v3);
+    printf("\nX3: %.2f\n", v3.x);
+    printf("Y3: %.2f\n", v3.y);
+    printf("Z3: %.2f\n", v3.z);
 
     system("pause");
     return 0;
