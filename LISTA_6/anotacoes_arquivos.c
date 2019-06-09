@@ -102,7 +102,7 @@ void exemploFgets(){
  *  Retorno:
  *      -   Total de unidades de dados gravadas com sucesso.
  *  exemplo de aplicação:   */ 
-void exemplofWrite(){
+void exemploFwrite(){
     FILE *arq;
     arq = fopen("dados.txt", "wb");
     char str[20] = "Hello world!\n";
@@ -127,7 +127,7 @@ void exemplofWrite(){
  *  Retorno:
  *      -   Total de unidades de dados lidas com sucesso.
  *  exemplo de aplicação:   */ 
-void exemplofWrite(){
+void exemploFread(){
     FILE *arq;
     arq = fopen("dados.txt", "rb");
     char str[20];
@@ -136,9 +136,9 @@ void exemplofWrite(){
     typedef struct cadastro {char nome[30], endereco[30]; int idade} CAD;
     CAD c;
     fread(str, sizeof(char), 20, arq);
-    fwrite(&x, sizeof(float), 1, arq);
-    fwrite(v, sizeof(int), 5, arq);
-    fwrite(&c, sizeof(CAD), 1, arq);
+    fread(&x, sizeof(float), 1, arq);
+    fread(v, sizeof(int), 5, arq);
+    fread(&c, sizeof(CAD), 1, arq);
     //se c fosse um array de structs, não precisaria colocar o & na frente, e o count seria o tamanho do array
     fclose(arq);
 }
