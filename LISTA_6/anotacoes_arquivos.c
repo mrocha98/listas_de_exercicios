@@ -74,7 +74,7 @@ void exemploFgetc(){
 void exemploFputs(){
     FILE *f;
     f = fopen("arquivo.txt", "w");
-    fputs("Hello World\n");
+    fputs("Hello World\n", f);
     fclose(f);
 }
 
