@@ -1,0 +1,21 @@
+3 - Explique o significado de cada ocorrência de * no fragmento de código a seguir e indique qual a saída exibida na tela. int *p, x=5;*p *= 2**p;printf("%d", x);
+
+fiz uma pequena modificação no código pois ele não estava compilando
+
+//int *p, x=5;
+//p = &x; (aqui)
+//*p *= 2 * *p;
+
+primeira ocorrência: *p
+declaração de um ponteiro p
+
+segunda ocorrência: p = &x
+ponteiro p passa a apontar pra x
+
+terceira ocorrência: *p = (*p) * (2) * (*p)
+ponteiro p recebe seu valor atual vezes 2 vezes seu valor atual novamente
+ou
+ponteiro p recebe seu valor atual ao quadrado vezes 2
+
+saída: 50
+5 * 2 * 5 = 50

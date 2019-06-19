@@ -1,0 +1,4 @@
+Olá!
+
+Os exercicios do pdf estao dentro da pasta ex1
+No pasta ex3 consta aquele exercício de comentar as ocorrências do ponteiro p
